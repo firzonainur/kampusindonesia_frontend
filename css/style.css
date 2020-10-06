@@ -1,0 +1,50 @@
+@page {
+    margin: 0px;
+}
+@font-face {
+    font-family: Quicksand-Regular;
+    src: url(http://localhost/kampusindonesia_frontend/assets/font/static/Quicksand-Regular.ttf) format("truetype");
+}
+
+* {
+    margin: 0cm;
+    padding: 0cm;
+    font-family: Quicksand-Regular, Verdana, Tahoma;
+}
+
+a.nav-link{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 22px;
+    color: #002E6D;
+    letter-spacing: 0.1em;
+}
+
+.btn-gradient-info{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 22px;
+    color: white;
+    border-radius: 30%;
+    padding: 10px 20px;
+    letter-spacing: 0.1em;
+    border-width: 0px;
+    background-image: linear-gradient(#71AFF1, #004895);
+}
+
+.nav-item{
+    margin: 0 0.5em;
+}
+
+.nav-logo{
+    margin-left: 8%;
+    margin-right: 2%;
+    padding: 8px 0;
+    width: 120px;
+}
+
+body {
+    padding-top: 82.95px;
+  }
