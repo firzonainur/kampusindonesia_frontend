@@ -173,3 +173,179 @@
     left: 470px;
     top: 567px;
 }
+
+#footer-container {
+    position: absolute;
+    width: 1440px;
+    height: 404px;
+    left: 0px;
+    top: 4026px;
+    
+    background: #14375E;
+}
+
+#footer-title-container{
+    position: absolute;
+    width: 173px;
+    height: 84px;
+    left: 160px;
+    top: 4046px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 42px;
+    letter-spacing: 0.05em;
+
+    color: #FFFFFF;
+}
+
+#footer-subtitle-container{
+    position: absolute;
+    width: 290px;
+    height: 67px;
+    left: 161px;
+    top: 4145px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+
+    color: #FFFFFF;
+}
+
+#footer-address-container{
+    position: absolute;
+    width: 195px;
+    height: 142px;
+    left: 161px;
+    top: 4232px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+
+    color: #FFFFFF;
+}
+
+#footer-name-company{
+    position: absolute;
+    width: 140px;
+    height: 28px;
+    left: 543px;
+    top: 4099px;
+    
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: 0.05em;
+    
+    color: #FFFFFF;
+}
+
+#footer-menu-container{
+    position: absolute;
+    width: 88px;
+    height: 120px;
+    left: 544px;
+    top: 4145px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+
+    color: #FFFFFF;
+}
+
+#footer-name-feature{
+    position: absolute;
+    width: 55px;
+    height: 28px;
+    left: 800px;
+    top: 4099px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: 0.05em;
+
+    color: #FFFFFF;
+}
+
+#footer-feature-container{
+    position: absolute;
+    width: 149px;
+    height: 146px;
+    left: 801px;
+    top: 4145px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+
+    color: #FFFFFF;
+}
+
+#footer-name-other{
+    position: absolute;
+    width: 92px;
+    height: 28px;
+    left: 1088px;
+    top: 4099px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: 0.05em;
+
+    color: #FFFFFF;
+}
+
+#footer-other-container{
+    position: absolute;
+    width: 52px;
+    height: 42px;
+    left: 1089px;
+    top: 4145px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+
+    color: #FFFFFF;
+}
+
+#footer-copyright{
+    position: absolute;
+    width: 194px;
+    height: 17px;
+    left: 623px;
+    top: 4398px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+
+
+    color: #FFFFFF;
+}
