@@ -173,3 +173,264 @@
     left: 470px;
     top: 567px;
 }
+
+/* CSS Code by Finda */
+#container-rekomendasi-kampus{
+    background: #0000;
+    position: absolute;
+    left: 160px;
+    top: 749px;
+    width: 800px;
+    height: 400px; 
+}
+
+#container-rekomendasi-kampus .caption-container{
+    background: linear-gradient(180deg, #2978E3 0%, #4493FF 100%);
+    border-radius: 8px;
+    width: 393px;
+    height: 400px;
+    position: absolute;
+}
+
+#container-rekomendasi-kampus .caption-container h1{
+    font-family: Quicksand;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 35px;
+    line-height: 40px;
+    position: absolute;
+    width: 291px;
+    height: 120px;
+    left: 25px;
+    top: 32px;
+    color: #FFFFFF;
+}
+
+#container-rekomendasi-kampus .caption-container p{
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 25px;
+    position: absolute;
+    left: 25px;
+    top: 175px;
+    height: 100px;
+    color: #FFFFFF;
+}
+
+#container-rekomendasi-kampus .caption-container .btn{
+    position: absolute;
+    width: 348px;
+    height: 53px;
+    left: 20px;
+    font-size: 20px;
+    top: 310px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 10px rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+}
+#container-rekomendasi-kampus .pilihan-kampus h4 {
+    position: absolute;
+    top: 10px;
+    left: 415px;
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 30px;
+    color: #14375E;
+}
+
+#container-rekomendasi-kampus .pilihan-kampus .btn{
+    position: absolute;
+    top: 10px;
+    width: 134px;
+    height: 27px;
+    left: 990px;
+    background: #F4F9FC;
+    border-radius: 10px;
+}
+
+#container-rekomendasi-kampus .card{
+    position: absolute;
+    width: 500px;
+    height: 350px;
+    left: 400px;
+    top: 50px;
+    background: #FFFFFF;
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+#container-rekomendasi-kampus .img-responsive-l{
+    position: absolute;
+    width: 72px;
+    height: 72px;
+    left: 19px;
+    top: 120px;
+}
+
+#container-rekomendasi-kampus .img-responsive-g{
+    position: absolute;
+    width: 224px;
+    height: 150px;
+    left: 11px;
+    top: 12px;
+    border-radius: 10px;    
+}
+#akreditasi{
+    position: absolute;
+    width: 114px;
+    height: 42px;
+    left: 121px;
+    top: 168px;
+    font-weight: bold;
+    border-radius: 10px;
+    color: #FFFFFF;
+}
+
+#container-rekomendasi-kampus h5{
+    position: absolute;
+    width: 194px;
+    height: 23px;
+    left: 11px;
+    top: 215px;
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 22px;    
+    color: #002E6D;
+}
+
+.card-body p{
+    position: absolute;
+    /* width: 45px;
+    height: 18px; */
+    left: 38px;
+    top: 245px;
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    color: rgba(0, 46, 109, 0.7);
+}
+#container-rekomendasi-kampus .i{
+    position: absolute;
+    /* width: 45px;
+    height: 18px; */
+    left: 38px;
+    top: 260px;
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    color: rgba(0, 46, 109, 0.7);
+}
+
+
+#container-rekomendasi-kampus .medal{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 15px;
+    top: 245px;
+}
+#container-rekomendasi-kampus .medal-i{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 15px;
+    top: 259px;
+}
+#container-rekomendasi-kampus #more {
+    position: absolute;
+    width: 224px;
+    height: 46px;
+    left: 11px;
+    top: 289px;
+    background: #002E6D;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 20px;
+}
+
+#container-rekomendasi-kampus .img-responsive-f{
+    position: absolute;
+    width: 40px;
+    height: 33.17px;
+    left: 184px;
+    top: 21px;
+}
+
+#container-rekomendasi-kampus .img-responsive{
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    left: 189.5px;
+    margin-left: 5px;
+    top: 30px;
+    border-radius: 5px;
+}
+
+#container-rekomendasi-kampus .card-2{
+    position: absolute;
+    width: 500px;
+    height: 350px;
+    left: 665px;
+    top: 50px;
+    background: #FFFFFF;
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+#container-rekomendasi-kampus .card-3{
+    position: absolute;
+    width: 500px;
+    height: 350px;
+    left: 930px;
+    top: 50px;
+    background: #FFFFFF;
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+#container-rekomendasi-kampus .card-4{
+    position: absolute;
+    width: 500px;
+    height: 350px;
+    left: 1197px;
+    top: 50px;
+    background: #FFFFFF;
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+.img-responsive-s{
+    position: absolute;
+    width: 52px;
+    height: 52px;
+    left: 83px;
+    top: 120px;
+}
+#more_search{
+    position: absolute;
+    width: 224px;
+    height: 46px;
+    left: 11px;
+    top: 200px;
+    background: #002E6D;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 20px;
+}
+
+.scrollvertical{
+    color: #fff;
+    line-height: 0px;
+    overflow: hidden;
+}
+
+/* Final CSS by Finda */
