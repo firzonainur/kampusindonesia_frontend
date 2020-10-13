@@ -174,6 +174,91 @@
     top: 567px;
 }
 
+#coorporate-container {
+    position: absolute;
+    width: 259px;
+    height: 30px;
+    left: 591px;
+    top: 3671px;
+
+    font-family: Quicksand;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 30px;
+    /* identical to box height */
+
+    text-align: center;
+}
+
+#coorporate-name {
+    position: absolute;
+    width: 259px;
+    height: 30px;
+    left: 591px;
+    top: 3671px;
+
+    font-family: Quicksand;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 30px;
+    /* identical to box height */
+
+    text-align: center;
+
+    color: #14375E;
+}
+#coorporate-container-1 {
+    position: absolute;
+    width: 134px;
+    height: 164px;
+    left: 183px;
+    top: 3742px;
+
+    background-image: url('./assets/telkom.png');
+}
+
+#coorporate-container-2 {
+    position: absolute;
+    width: 148px;
+    height: 164px;
+    left: 397px;
+    top: 3742px;
+
+    background-image: url('./assets/ugm.png');
+}
+
+#coorporate-container-3 {
+    position: absolute;
+    width: 148px;
+    height: 164px;
+    left: 625px;
+    top: 3742px;
+
+    background-image: url('./assets/ui.png');
+}
+
+#coorporate-container-4 {
+    position: absolute;
+    width: 162px;
+    height: 164px;
+    left: 853px;
+    top: 3742px;
+
+    background-image: url('./assets/itb.png');
+}
+
+#coorporate-container-5 {
+    position: absolute;
+    width: 162px;
+    height: 164px;
+    left: 1095px;
+    top: 3742px;
+
+    background-image: url('./assets/ipb.png');
+}
+
 #footer-container {
     position: absolute;
     width: 1440px;
