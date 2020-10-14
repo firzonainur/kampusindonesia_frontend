@@ -1,0 +1,95 @@
+.footer {
+    display: flex;
+    flex-flow: row wrap;
+    padding-top: 20px;
+    padding-left: 160px;
+    padding-right: 100px;
+    color: #fff;
+    background: #14375E;
+    }
+    
+    .footer > * {
+    flex:  1 100%;
+    }
+    
+    .l-footer {
+    margin-right: 1.25em;
+    margin-bottom: 2em;
+    }
+
+    .l-footer h1{
+    font-size: 36px;
+    line-height: 42px;
+    letter-spacing: 0.05em;        
+    }
+    
+    .footer ul {
+    list-style: none;
+    padding-left: 0;
+    }
+    
+    .footer li {
+    line-height: 2em;
+    }
+    
+    .footer a {
+    text-decoration: none;
+    }
+    
+    .r-footer {
+    display: flex;
+    flex-flow: row wrap;
+    padding-top: 50px;
+    }
+    
+    .perusahaan{
+        padding-left: 20px;
+    }
+
+    .r-footer > * {
+    flex: 1 50%;
+    margin-right: 1.25em;
+    }
+    
+    .features{
+        padding-left: 100px;
+    }
+
+    .box a {
+    color: white;
+    }
+    
+    .h-box {
+    column-gap: 1.25em;
+    }
+    
+    .b-footer {
+    text-align: center;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 17px;
+    }
+    
+    .l-footer p {
+    padding-right: 20%;
+    }   
+    
+    @media screen and (min-width: 600px) {
+    .r-footer > * {
+    flex: 1;
+    }
+    
+    .features {
+    flex-grow: 2;
+    }
+    
+    .l-footer {
+    flex: 1 0px;
+    }
+    
+    .r-footer {
+    flex: 2 0px;
+    }
+    }
