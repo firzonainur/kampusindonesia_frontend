@@ -1,0 +1,423 @@
+.blog-post img{
+    padding-top: 60px;
+    padding-left: 100px;
+}
+
+#teks{
+    position: absolute;
+    width: 291px;
+    height: 120px;
+    left: 130px;
+    top: 755px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 40px;
+    color: #FFFFFF;
+}
+
+#teks2{
+    position: absolute;
+    width: 334px;
+    height: 100px;
+    left: 130px;
+    top: 890px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 25px;
+    color: #FFFFFF;
+}
+
+.button0{
+    position: absolute;
+    width: 348px;
+    height: 53px;
+    left: 125px;
+    top: 1054px;  
+    background: #FFFFFF;
+    box-shadow: 0px 4px 10px rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+}
+
+.teks3{
+    text-align: center;
+    font-size: 18px;
+    line-height: 22px;
+    padding-top: 15px; 
+    color: #002E6D;  
+}
+
+.blog-post-info{
+    position: absolute;
+    width: 349px;
+    height: 30px;
+    left: 520px;
+    top: 749px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 30px;
+    /* identical to box height */
+    text-align: center;
+    color: #14375E;    
+}
+
+.lihat{
+    position: absolute;
+    width: 112px;
+    height: 16px;
+    left: 679px;
+    top: 10px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 16px;
+    text-align: center;
+    color: #14375E;    
+}
+
+.box1{
+    position: absolute;
+    width: 246px;
+    height: 357px;
+    left: 5px;
+    top: 50px; 
+    background: #FFFFFF;
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;    
+}
+
+.image1{
+    position: absolute;
+    width: 224px;
+    height: 145px;
+    left: 15px;
+    bottom: -200px;
+    background: url(../img/UB.png);
+}
+
+.lingkaran1{
+	width: 70px;
+    height: 70px;
+    margin-left: 15px;
+    margin-top: 100px;
+	background: white;
+	border-radius: 100%;
+}
+
+.logo1{
+    position: absolute;
+    width: 56px;
+    height: 55px;
+    left: 37px;
+    top: 185px;
+    background-color: #FFFFFF;  
+    background: url(../img/1200px-Logo_Universitas_Brawijaya.png)    
+}
+
+.akreditasi1{
+    position: absolute;
+    width: 88px;
+    height: 18px;
+    left: 134px;
+    top: 240px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+    color: #FFFFFF;    
+}
+
+.rectangle1{
+    position: absolute;
+    width: 114px;
+    height: 42px;
+    left: 121px;
+    top: 230px;
+    background: #002E6D;
+    border-radius: 10px;    
+}
+
+.submit1{
+    position: absolute;
+    width: 224px;
+    height: 46px;
+    left: 17px;
+    top: 354px;
+    background: #002E6D;
+    border-radius: 10px;    
+}
+
+.detail1{
+    position: absolute;
+    width: 78px;
+    height: 18px;
+    left: 87px;
+    top: 368px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+    
+}
+
+.universitas1{
+    position: absolute;
+    width: 194px;
+    height: 23px;
+    left: 15px;
+    top: 277px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 19px;
+    line-height: 22px;
+    /* identical to box height */
+    color: #002E6D;    
+}
+
+.negeri1{
+    position: absolute;
+    width: 45px;
+    height: 18px;
+    left: 38px;
+    top: 323px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 17px;
+    color: rgba(0, 46, 109, 0.7);    
+}
+
+.box2{
+    position: absolute;
+    width: 246px;
+    height: 357px;
+    left: 280px;
+    top: 50px; 
+    background: #FFFFFF;
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;    
+}
+
+.image2{
+    position: absolute;
+    width: 230px;
+    height: 145px;
+    left: 288px;
+    bottom: -200px;
+    background: url(../img/UGM.png);    
+}
+
+.lingkaran2{
+	width: 70px;
+    height: 70px;
+    margin-left: 15px;
+    margin-top: 100px;
+	background: white;
+	border-radius: 100%;
+}
+
+.logo2{
+    position: absolute;
+    width: 56px;
+    height: 55px;
+    left: 311px;
+    top: 185px;
+    background-color: #FFFFFF;  
+    background: url(../img/logo-ugm-mini.png)    
+}
+
+.rectangle2{
+    position: absolute;
+    width: 114px;
+    height: 42px;
+    left: 399px;
+    top: 230px;
+    background: #002E6D;
+    border-radius: 10px;    
+}
+
+.universitas2{
+    position: absolute;
+    width: 194px;
+    height: 23px;
+    left: 291px;
+    top: 277px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 19px;
+    line-height: 22px;
+    text-align: left;
+    /* identical to box height */
+    color: #002E6D;    
+}
+
+.akreditasi2{
+    position: absolute;
+    width: 88px;
+    height: 18px;
+    left: 413px;
+    top: 240px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+    color: #FFFFFF;    
+}
+
+.negeri2{
+    position: absolute;
+    width: 45px;
+    height: 18px;
+    left: 315px;
+    top: 325px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 17px;
+    color: rgba(0, 46, 109, 0.7);    
+}
+
+.submit2{
+    position: absolute;
+    width: 224px;
+    height: 46px;
+    left: 291px;
+    top: 354px;
+    background: #002E6D;
+    border-radius: 10px;    
+}
+
+.detail2{
+    position: absolute;
+    width: 78px;
+    height: 18px;
+    left: 361px;
+    top: 368px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+    
+}
+
+
+.box3{
+    position: absolute;
+    width: 246px;
+    height: 357px;
+    left: 550px;
+    top: 50px; 
+    background: #FFFFFF;
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;     
+}
+
+.image3{
+    position: absolute;
+    width: 230px;
+    height: 145px;
+    left: 558px;
+    bottom: -200px;
+    background: url(../img/ITB.png);    
+}
+
+.lingkaran3{
+	width: 70px;
+    height: 70px;
+    margin-left: 15px;
+    margin-top: 100px;
+	background: white;
+	border-radius: 100%;
+}
+
+.logo3{
+    position: absolute;
+    width: 56px;
+    height: 55px;
+    left: 581px;
+    top: 185px;
+    background-color: #FFFFFF;  
+    background: url(../img/logo-itb-1024px-mini.png)    
+}
+
+.rectangle3{
+    position: absolute;
+    width: 114px;
+    height: 42px;
+    left: 670px;
+    top: 230px;
+    background: #002E6D;
+    border-radius: 10px;    
+}
+
+.universitas3{
+    position: absolute;
+    width: 194px;
+    height: 23px;
+    left: 562px;
+    top: 277px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 19px;
+    text-align: left;
+    line-height: 22px;
+    /* identical to box height */
+    color: #002E6D;    
+}
+
+.akreditasi3{
+    position: absolute;
+    width: 88px;
+    height: 18px;
+    left: 685px;
+    top: 240px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+    color: #FFFFFF;    
+}
+
+.negeri3{
+    position: absolute;
+    width: 45px;
+    height: 18px;
+    left: 580px;
+    top: 325px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 17px;
+    color: rgba(0, 46, 109, 0.7);    
+}
+
+.submit3{
+    position: absolute;
+    width: 224px;
+    height: 46px;
+    left: 560px;
+    top: 354px;
+    background: #002E6D;
+    border-radius: 10px;    
+}
+
+.detail3{
+    position: absolute;
+    width: 78px;
+    height: 18px;
+    left: 635px;
+    top: 368px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+    
+}
