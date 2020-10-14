@@ -3,26 +3,32 @@
   <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"> 
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="style.css">
+
+    <!-- Js -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 
     <title>WebSite Kampus Indonesia</title>
   </head>
   <body>
-    <!-- Navbar -->
-    <!--Progress Header, code by : Mutiara Annisa-->
-    <nav class="navbar navbar-expand-lg navbar-primary bg-white fixed-top">
-      <div class="container">
+    <!--Code By Mutiara Annisa-->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top bg-white" id="Navigasi">
       <a class="navbar-brand" href="#">
-        <img src = "assets/logo.png" width="161px" height="62.38px">
+        <img src = "assets/logo.png" width="161px">
       </a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+    
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav">
           <li class="nav-item active">
             <a class="nav-link menu" href="#">Beranda <span class="sr-only">(current)</span></a>
@@ -43,61 +49,67 @@
           <li class="nav-item">
             <a class="nav-link menu" href="#">Blog</a>
           </li>
-          <li>
-            <button type="button" class="btn">Masuk</button>
-          </li>
-          <li>
-            <button type="button" class="btn">Daftar</button>
-          </li>
         </ul>
+        <hr>
+        <div id="button-container">
+          <button type="button" id="buttonMasuk">Masuk</button>
+          <button type="button" id="buttonDaftar">Daftar</button>
+        </div>
       </div>
-    </div>
     </nav>
   
 
-    <!--Main Cotainer-->
-    <div id="MainContianer">
-      <img id ="gambar-container" src="assets/ilustrasi-container.png" width="473px" height="310px">
-      <div id="caption-container">
-      <h1>Bingung Cari Informasi <br> Seputar Kuliah ?</h1>
-      <h2>Cari Disini Aja!</h2>
-      <p>Dapatkan informasi seputar dunia perkuliahan secara<br>
-      terupdate dari kami melalui aplikasi kampus indonesia</p>
-      </div>
-
-      <div id="search-container">
-      <input type="search" id="search-box" placeholder="Informasi Seputar Perkuliahan / Cari Kampus">
-      <img src="assets/icon_search.png" width="18px" height="18px">
-      </div>
-      <div id="container-info">
-
-        <img id = "school1" src="assets/school 1.png">
-
-        <div id="school1-caption">
-        <h3>1042</h3>
-        <p>Jumlah Kampus yang <br> Terdata Saat Ini</p>
-        </div>
-
-        <img id = "school2" src="assets/school 2.png">
-        <div id="school2-caption">
-          <h3>113</h3>
-          <p>Jumlah Kampus yang <br> Sudah Terdaftar di Pintara</p>
+<div id="first_section">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-7 col-xs-12">
+        <div class="caption_panel">
+          <h1>Bingung Cari Informasi <br> Seputar Kuliah ?</h1>
+          <h2>Cari Disini Aja!</h2>
+          <p>Dapatkan informasi seputar dunia perkuliahan secara<br>
+          terupdate dari kami melalui aplikasi kampus indonesia</p>
         </div>
       </div>
-      <div id = "illustrasi1">
-        <img src="assets/elipse1.png" width="202px" height="32px">
-      </div>
-      <div id="illustrasi2">
-        <img src="assets/elipse1.png" width="178px" height="32px">
-      </div>
-      <div id="illustrasi3">
-        <img src="assets/Ellipse 51.png" width="124px" height="124px">
+      <div class="col-md-5">
+        <div class="image-panel">
+          <img id ="gambar-container" src="assets/ilustrasi-container.png" width="473px">
+        </div>
       </div>
     </div>
+    <div class="row">
+      <div class="col-md-12 col-xs-12">
+        <div id="search-container">
+          <input type="search" id="search-box" placeholder="Informasi Seputar Perkuliahan / Cari Kampus">
+          </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+      <div id="container-info">
+            <figure id="campus-data">
+                <img id = "school1" src="assets/school 1.png">
+                    <figcaption>
+                    <h3>1042</h3>
+                    <p>Jumlah Kampus yang <br> Terdata Saat Ini</p>
+                </figcaption>
+            </figure>
+
+            <figure id="registered-campus" >
+                <img id = "school2" src="assets/school 2.png">
+                <figcaption>
+                    <h3>113</h3>
+                    <p>Jumlah Kampus yang <br> Sudah Terdaftar di Pintara</p>
+              </figcaption>
+          </figure>
+      </div>
+ 
+      <img id = "illustrasi1" src="assets/elipse1.png" width="202px" height="32px">
+      <img id = "illutrasi2" src="assets/elipse1.png" width="178px" height="32px">
+      <img id = "illustrasi3" src="assets/Ellipse 51.png" width="124px" height="124px">
      <!--Final Code By Mutiara-->
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-      <script type="text/javascript" src="js/bootstrap.min.js"></script>
   </body>
 </html>

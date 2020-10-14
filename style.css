@@ -1,5 +1,11 @@
+/** Css By Mutiara Annisa **/
+
 *{
     font-family: Quicksand;
+}
+body {
+    overflow-x: hidden;
+    margin: 0;;
 }
 
 .menu {
@@ -8,30 +14,19 @@
     font-style: normal;
     line-height: 22.5px;
     color: #002E6D;
-
 }
 
-#MainContianer {
-    width: 1707px;
+#first_section {
     height: 594.45px;
-    margin-top: 87.45px;
+    /* margin-top: 6rem; */
+    width: 100%;
     background-image: url("./assets/Background-Container.png");
-
+}
+#first_section .caption_panel{
+    margin-top: 100px;
 }
 
-#MainContianer img {
-    margin-left: 800px;
-    margin-top: 42.17px;
-    transform: matrix(-1, 0, 0 1, 0, 0);
-    
-}
-
-#MainContianer #caption-container {
-    margin-left: 156px;
-    margin-top: -250px;
-    position: relative;
-}
-#MainContianer h1 {
+#first_section h1 {
     font-size: 48px;
     font-weight: bold;
     line-height: 60px;
@@ -39,14 +34,14 @@
     color: #002E6D;
 }
 
-#MainContianer h2 {
+#first_section h2 {
     color: #002E6D;
     font-size: 36px;
     line-height: 45px;
     font-style: normal;
 }
 
-#MainContianer p {
+#first_section p {
     font-family: Monserrat !important;
     font-style: normal;
     font-weight: normal;
@@ -55,16 +50,72 @@
     color: rgba(0, 46, 109, 0.75);
 }
 
+#first_section .image-panel img {
+    margin-top: 35px;;
+}
+
+#caption-container {
+    margin-left: 156px;
+    margin-top: -250px;
+    position: relative;
+}
+
+#Navigasi {
+    position: relative;
+}
+
+#Navigasi #button-container #buttonDaftar{
+    border-radius: 50px;
+    border: none;
+    background: linear-gradient(180deg, #71AFF1 0%, #004895 100%);
+    height: 33.33px;
+    width: 100px;
+    color: #ffffff;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+#Navigasi #button-container { 
+    position: absolute;
+    right: 130px;
+    padding: 10px;
+
+}
+#Navigasi #button-container #buttonMasuk {
+    font-style: normal;
+    font-weight: bold;
+    line-height: 22px;
+    font-size: 18px;
+    width: 56px;
+    height: 23px;
+    color: #002E6D;
+    border: none;
+    margin-right: 30px;
+    background: transparent;
+}
+
+#search-container {
+    width: 100%;
+    text-align: center;
+}
+
 #search-container #search-box{
     width: 544px;
     height: 55px;
-    margin-left: 380px;
     margin-top: 10px;
     background-color: #ffffff;
     border: 1px solid #002E6D;
     box-sizing: border-box;
     box-shadow: 0px 4px 4px rgba(0, 46, 109, 0.15);
     border-radius: 50px;
+}
+#search-container #search-box:focus {
+    box-sizing: border-box;
+    box-shadow: 0px 4px 4px rgba(0, 46, 109, 0.15);
+    border-radius: 50px !important;
+
 }
 #search-container #search-box::-webkit-input-placeholder {
     font-style: normal;
@@ -76,13 +127,10 @@
     text-align: center;
     opacity: 50%;
 }
-#search-container img {
-    position: relative;
-    left: 66.18px;
-    top: -75px;
-}
 
 #container-info{
+    display: flex;
+    flex-direction: row;
     position: absolute;
     left: 352px;
     top: 549px;
@@ -92,84 +140,110 @@
     box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
 }
-
-#container-info #school1{
-    position: relative;
-    height: 96px;
-    width: 96px;
-    left: -750px;
-    top: -20px;
+#campus-data {
+    padding-left: 5%;
+    padding-top: 2%;
+    display: flex;
+    flex-direction: row;
+    padding-right: 2%;
+}
+#campus-data figcaption {
+    padding-top: 2%;
+    padding-right: 2%;
+}
+#school1 {
+    padding-right: 10%;
+    padding-left: 5%;
 }
 
-#container-info #school1-caption {
-    position: relative;
-    left: 170px;
-    top: -110px;
-
+#registered-campus {
+    padding-top: 2%;
+    display: flex;
+    flex-direction: row;
+    padding-right: 2%;
 }
-#school1-caption h3 {
-    font-family: Roboto !important;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 36px;
-    line-height: 42px;
-    color: #002E6D;
-
+#registered-campus figcaption {
+    padding-top: 2%;
+    padding-right: 2%;
 }
-#school1-caption p{
-    font-family: Montserrat !important;
-    font-style: normal;
-    font-size: 14px;
-    line-height: 17px;
-    color: rgba(0, 46, 109, 0.75);
+#school2 {
+    padding-right: 10%;
 }
 
-#container-info #school2 {
-    position: relative;
-    width: 130px;
-    height: 106px;
-    left: -450px;
-    top: -260px;
-}
 
-#container-info #school2-caption {
-    position: relative;
-    left: 500px;
-    top: -355px;
-
-}
-
-#school2-caption h3 {
-
-    font-family: Roboto !important;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 36px;
-    line-height: 42px;
-    color: #002E6D;
-}
-#school2-caption p {
-    font-family: Montserrat !important;
-    font-style: normal;
-    font-size: 14px;
-    line-height: 17px;
-    color: rgba(0, 46, 109, 0.75);
-}
-
-#illustrasi1 img {
+#illustrasi1{
     position: absolute;
-    right: 1100px;
-    top: 415px;
-}
-
-#illustrasi2 img {
-    position: absolute;
-    left: 450px;
+    width: 180px;
+    height: 32px;
+    left: 1250px;
     top: 136px;
 }
 
-#illustrasi3 img {
+#illutrasi2{
     position: absolute;
-    left: 470px;
-    top: 567px;
+    width: 202px;
+    height: 32px;
+    left: 60px;
+    top: 452px;
 }
+
+#illustrasi3{
+    position: absolute;
+    width: 124px;
+    height: 124px;
+    left: 1280px;
+    top: 607px;
+}
+
+
+
+@media screen and (max-width: 600px){
+    .image-panel img {
+        display: none;
+    }
+    .caption_panel h1 {
+        font-size: 30px !important;
+        padding : 5% 5% 0 5.5% !important;
+        text-align: center;
+
+    }
+
+    .caption_panel h2 {
+        font-size: 25px !important;
+        padding: 0 0 0 5.5% !important;
+        text-align: center;
+    }
+
+    .caption_panel p {
+        font-size: 15px !important;
+        padding-left: 5.5%;
+        text-align: center;
+    }
+    #search-box {
+        width: 80% !important;
+        margin-top: 50px !important;
+    }
+    #search-box::-webkit-input-placeholder {
+        font-size: 13.5px !important;
+        padding-left: 20px;
+    }
+    #illutrasi2 {
+        display: none;
+    }
+
+    #container-info {
+        flex-direction: column;
+        position: absolute;
+        left: 5%;
+        background: transparent;
+        box-shadow: 0 0 0;
+        padding-top: 30%;
+    }
+    #school2 {
+        padding-left: 5%;
+    }
+
+
+}
+
+/** Final Css By Mutiara Annisa **/
