@@ -245,7 +245,7 @@
   width: 71px;
   height: 23px;
   left: 197px;
-  top: 1884px;
+  top: 1905px;
   font-style: normal;
   font-weight: bold;
   font-size: 18px;
@@ -261,7 +261,7 @@
   width: 71px;
   height: 23px;
   left: 615px;
-  top: 1884px;
+  top: 1905px;
   font-style: normal;
   font-weight: bold;
   font-size: 18px;
@@ -277,7 +277,7 @@
   width: 71px;
   height: 23px;
   left: 988px;
-  top: 1884px;
+  top: 1905px;
   font-style: normal;
   font-weight: bold;
   font-size: 18px;
@@ -293,7 +293,7 @@
   width: 71px;
   height: 23px;
   left: 197px;
-  top: 2151px;
+  top: 2170px;
   font-style: normal;
   font-weight: bold;
   font-size: 18px;
@@ -309,7 +309,7 @@
   width: 71px;
   height: 23px;
   left: 605px;
-  top: 2151px;
+  top: 2170px;
   font-style: normal;
   font-weight: bold;
   font-size: 18px;
@@ -325,7 +325,7 @@
   width: 71px;
   height: 23px;
   left: 1030px;
-  top: 2151px;
+  top: 2170px;
   font-style: normal;
   font-weight: bold;
   font-size: 18px;
@@ -672,6 +672,7 @@
   top: 3335px;
   background: rgba(29, 27, 27, 0.4);
   border-radius: 10px;  
+  background-image: url(../img/fotoartikel2.png);
 }
 
 .bg2{
@@ -682,6 +683,7 @@
   top: 3335px;
   background: rgba(29, 27, 27, 0.4);
   border-radius: 10px;  
+  background-image: url(../img/fotoartikel.png);
 }
 
 .bg3{
@@ -692,6 +694,7 @@
   top: 3335px;
   background: rgba(29, 27, 27, 0.4);
   border-radius: 10px;  
+  background-image: url(../img/fotoartikel3.png);
 }
 
 .artikel-info{
@@ -764,7 +767,7 @@
   height: 50px;
   left: 20px;
   top: 3485px;
-  background: #C4C4C4; 
+  background-image: url(../img/arrow-kiri.png);
   border-radius: 100%; 
 }
 
@@ -774,6 +777,14 @@
   height: 50px;
   left: 1265px;
   top: 3485px;
-  background: #C4C4C4; 
+  background-image: url(../img/arrow-kanan.png); 
   border-radius: 100%; 
+}
+
+.img1{
+  position: absolute;
+  width: 191px;
+  height: 146px;
+  left: 60px;
+  top: 15px;  
 }
