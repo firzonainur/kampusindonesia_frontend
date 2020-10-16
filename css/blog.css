@@ -77,6 +77,20 @@
     color: #14375E;    
 }
 
+.lihat1{
+    position: absolute;
+    width: 112px;
+    height: 16px;
+    left: 548px;
+    top: -35px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 16px;
+    text-align: center;
+    color: #14375E;    
+}
+
 .box1{
     position: absolute;
     width: 246px;
@@ -92,8 +106,8 @@
     position: absolute;
     width: 224px;
     height: 145px;
-    left: 15px;
-    bottom: -200px;
+    left: 10px;
+    bottom: 195px;
     background: url(../img/UB.png);
 }
 
@@ -110,8 +124,8 @@
     position: absolute;
     width: 56px;
     height: 55px;
-    left: 37px;
-    top: 185px;
+    left: 32px;
+    top: 115px;
     background-color: #FFFFFF;  
     background: url(../img/1200px-Logo_Universitas_Brawijaya.png)    
 }
@@ -121,7 +135,7 @@
     width: 88px;
     height: 18px;
     left: 134px;
-    top: 240px;
+    top: 175px;
     font-style: normal;
     font-weight: bold;
     font-size: 14px;
@@ -135,7 +149,7 @@
     width: 114px;
     height: 42px;
     left: 121px;
-    top: 230px;
+    top: 165px;
     background: #002E6D;
     border-radius: 10px;    
 }
@@ -144,8 +158,8 @@
     position: absolute;
     width: 224px;
     height: 46px;
-    left: 17px;
-    top: 354px;
+    left: 11px;
+    top: 300px;
     background: #002E6D;
     border-radius: 10px;    
 }
@@ -154,8 +168,8 @@
     position: absolute;
     width: 78px;
     height: 18px;
-    left: 87px;
-    top: 368px;
+    left: 85px;
+    top: 315px;
     font-style: normal;
     font-weight: bold;
     font-size: 14px;
@@ -169,11 +183,12 @@
     width: 194px;
     height: 23px;
     left: 15px;
-    top: 277px;
+    top: 218px;
     font-style: normal;
     font-weight: bold;
     font-size: 19px;
     line-height: 22px;
+    text-align: left;
     /* identical to box height */
     color: #002E6D;    
 }
@@ -183,7 +198,7 @@
     width: 45px;
     height: 18px;
     left: 38px;
-    top: 323px;
+    top: 275px;
     font-style: normal;
     font-weight: bold;
     font-size: 13px;
@@ -204,10 +219,10 @@
 
 .image2{
     position: absolute;
-    width: 230px;
+    width: 224px;
     height: 145px;
-    left: 288px;
-    bottom: -200px;
+    left: 10px;
+    bottom: 195px;
     background: url(../img/UGM.png);    
 }
 
@@ -224,8 +239,8 @@
     position: absolute;
     width: 56px;
     height: 55px;
-    left: 311px;
-    top: 185px;
+    left: 32px;
+    top: 115px;
     background-color: #FFFFFF;  
     background: url(../img/logo-ugm-mini.png)    
 }
@@ -320,10 +335,10 @@
 
 .image3{
     position: absolute;
-    width: 230px;
+    width: 224px;
     height: 145px;
-    left: 558px;
-    bottom: -200px;
+    left: 10px;
+    bottom: 195px;
     background: url(../img/ITB.png);    
 }
 
@@ -340,8 +355,8 @@
     position: absolute;
     width: 56px;
     height: 55px;
-    left: 581px;
-    top: 185px;
+    left: 32px;
+    top: 115px;
     background-color: #FFFFFF;  
     background: url(../img/logo-itb-1024px-mini.png)    
 }
