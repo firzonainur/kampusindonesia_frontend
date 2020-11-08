@@ -660,6 +660,626 @@ section #fitur-yang-tersedia{
     top: 1712px;
 }
 
+#job-search {
+    width: 100%;
+    height: 450px;
+    background:#F3F7FC;
+    top: 2124px;
+    position: absolute;
+}
+
+#job-search #job-search-container {
+    position: absolute;
+    margin: 10px;
+    width: 100%;
+    height: auto;
+}
+
+#job-search #job-search-container #ilustrasi1{
+    /* width: 350px;
+    height: 350px; */
+    top: 50px;
+    margin-left: 140px;
+    position: absolute;
+}
+
+#job-search #job-search-container #elipse-icon{
+    left: 1100px;
+    position: absolute; 
+    top: 0px;
+    padding: 50px;
+}
+#job-search #job-search-container #elipse-icon2{
+    left: 1000px;
+    position: relative;
+    top: 200px; 
+}
+
+#job-search #job-search-container #job-search-caption h4 {
+    position: relative;
+    width: 497px;
+    height: 30px;
+    left: 570px;
+    top: 140px;
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 30px;
+    color: #14375E;
+}
+
+#job-search #job-search-container #job-search-caption p {
+    position: absolute;
+    width: 410px;
+    height: 24px;
+    left: 630px;
+    top: 170px;
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 24px;
+    color: rgba(0, 46, 109, 0.75);
+}
+#job-search #job-search-container .btn{
+    width: 178px;
+    height: 40px;
+    left: 700px;
+    top: 210px;
+    background: #002E6D;
+    border-radius: 5px;
+    position: absolute;
+    font-size: 15px;
+}
+
+.seminar-information {
+    width: 100%;
+    height: auto;
+    top: 430px;
+    position: relative;
+}
+
+.seminar-information .container {
+    padding: 15px;
+    margin-bottom: 30px;
+    position: relative;
+    /* display: inline-block; */
+    width: 100%;
+    height: auto;
+}
+
+.seminar-information .container #caption-container-seminar h5 {
+    position: absolute;
+    width: 100%;
+    height: 30px;
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 30px;
+    text-align: center;
+    color: #14375E;
+}
+
+.seminar-information .container #caption-container-seminar #title-option a {
+    display: inline;
+}
+
+.seminar-information .container #caption-container-seminar #title-option #pilihan {
+    position: relative;
+    width: 71px;
+    height: 23px;
+    left: 5px;
+    top: 18px;
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 18px;
+    line-height: 22px;
+    /* identical to box height */
+    text-align: center;
+    color: #002E6D;
+}
+
+.seminar-information .container #caption-container-seminar #title-option #pilihan2 {
+    position: relative;
+    width: 71px;
+    height: 23px;
+    left: 20px;
+    top: 18px;
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 18px;
+    line-height: 22px;
+    /* identical to box height */
+    text-align: center;
+    color: #002E6D;
+}
+
+.seminar-information .container #caption-container-seminar #title-option #btn-more {
+    position: relative;
+    top: 10px;
+    width: 100px;
+    height: 27px;
+    left: 870px;
+    background: #F4F9FC;
+    border-radius: 10px;
+    font-size: 12px;
+}
+
+/* .seminar-information .container .scrolling-wrapper {
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+  }
+
+.seminar-information .container .scrolling-wrapper-flexbox {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+  } */
+
+.seminar-information .container .scrolling-wrapper .card {
+    display: inline-block;
+    flex: 0 0 auto;
+  }
+
+
+.seminar-information .container .card-statis {
+    display: inline-block;
+    width: 480px;
+    height: auto;
+    left: 160px;
+    top: 2751px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+}
+
+.seminar-information .container .card-statis .card-caption #kategori {
+    width: 62px;
+    height: 27px;
+    left: 10px;
+    background: #14375E;
+    border-radius: 2px;
+    color: #FFFFFF;
+    font-size: 12px;
+    position: relative;
+    text-align: center;
+    margin: 5px;
+}
+
+.seminar-information .container .card-statis .card-caption h4 {
+    width: 250px;
+    height: 30px;
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 30px;
+    margin-left: 10px; 
+    color: #14375E;
+    position: relative;
+}
+
+.seminar-information .container .card-statis #icon1{
+    margin-left: 10px;
+    display: inline;
+}
+
+.seminar-information .container .card-statis #icon2{
+    margin-left: 10px;
+    display: inline;
+}
+
+.seminar-information .container .scrolling-wrapper .card3 {
+    display: inline-block;
+    width: auto;
+    height: auto;
+    left: 795px;
+    top: 98px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    position: absolute;
+}
+.seminar-information .container .scrolling-wrapper .card2 {
+    display: inline-block;
+    width: auto;
+    height: auto;
+    left: 515px;
+    top: 98px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    position: absolute;
+}
+
+.seminar-information .container .scrolling-wrapper .card4 {
+    display: inline-block;
+    width: 232px;
+    height: auto;
+    left: 1075px;
+    top: 98px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    position: absolute;
+}
+
+/* .seminar-information .container .scrolling-wrapper .card {
+    display: inline-block;
+    width: 256px;
+    height: auto;
+    left: 160px;
+    top: 2751px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+} */
+
+.seminar-information .container .scrolling-wrapper .card-caption #kategori{
+    width: 62px;
+    height: 27px;
+    left: 10px;
+    background: #14375E;
+    border-radius: 2px;
+    color: #FFFFFF;
+    font-size: 12px;
+    position: relative;
+    text-align: center;
+    margin: 5px;
+}
+
+.seminar-information .container .scrolling-wrapper .card-caption h5 {
+    width: 250px;
+    height: 30px;
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 30px;
+    margin-left: 10px; 
+    color: #14375E;
+    position: relative;
+}
+
+.seminar-information .container .scrolling-wrapper #icon1{
+    margin-left: 10px;
+    display: inline;
+}
+
+.seminar-information .container .scrolling-wrapper #icon2{
+    margin-left: 10px;
+    display: inline;
+}
+
+#artikel {
+    width: 100%;
+    height: auto;
+    top: 450px;
+    position: relative;
+    display: inline-block;
+}
+
+#artikel .container {
+    position: relative;
+    width: 100%;
+    height: auto;
+    /* background: saddlebrown; */
+}
+
+#artikel .container .caption-container-artikel h5 {
+    position: relative;
+    width: 100%;
+    height: 30px;
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 30px;
+    color: #14375E;
+}
+
+#artikel .container .caption-container-artikel p {
+    position: relative;
+    font-family: sans-serif;
+    font-style: normal;
+    color: #14375E;
+}
+
+#artikel .container .scrolling-wrapper .card #pict1 {
+    width: 352px;
+    height: 365px;
+    background: rgba(29, 27, 27, 0.4);
+    border-radius: 10px;
+    position: absolute;
+    filter: brightness(50%);
+    display: inline-block;
+}
+
+#artikel .container .scrolling-wrapper .card2 #pict2 {
+    width: 352px;
+    height: 365px;
+    background: rgba(29, 27, 27, 0.4);
+    border-radius: 10px;
+    position: absolute;
+    filter: brightness(50%);
+    margin-left: 380px;
+    top:78px;
+}
+
+#artikel .container .scrolling-wrapper .card3 #pict3 {
+    width: 352px;
+    height: 365px;
+    background: rgba(29, 27, 27, 0.4);
+    border-radius: 10px;
+    position: absolute;
+    filter: brightness(50%);
+    margin-left: 760px;
+    top:78px;
+}
+
+#artikel .container .scrolling-wrapper .card2  #btn-info {
+        position: absolute;
+        width: 95px;
+        height: 30px;
+        background: #FFFFFF;
+        border: 1px solid #E2E2E2;
+        border-radius: 5px;
+        margin-left: 380px;
+        top: 78px;
+}
+#artikel .container .scrolling-wrapper .card  #btn-info {
+    position: absolute;
+    width: 95px;
+    height: 30px;
+    background: #FFFFFF;
+    border: 1px solid #E2E2E2;
+    border-radius: 5px;
+}
+
+#artikel .container .scrolling-wrapper .card3  #btn-info {
+    position: absolute;
+    width: 95px;
+    height: 30px;
+    background: #FFFFFF;
+    border: 1px solid #E2E2E2;
+    border-radius: 5px;
+    margin-left: 760px;
+    top: 78px;
+}
+
+#artikel .container .scrolling-wrapper .card  #btn-desc {
+    position: absolute;
+    margin-top: 200px;
+    margin-left: 25px;
+    width: 95px;
+    height: 30px;
+    background: #FFFFFF;
+    border: 1px solid #E2E2E2;
+    border-radius: 20px;
+}
+#artikel .container .scrolling-wrapper .card2 #btn-desc2 {
+    position: absolute;
+    margin-top: 200px;
+    margin-left: 410px;
+    width: 95px;
+    height: 30px;
+    background: #FFFFFF;
+    border: 1px solid #E2E2E2;
+    border-radius: 20px;
+    
+}
+#artikel .container .scrolling-wrapper .card3 #btn-desc3 {
+    position: absolute;
+    margin-top: 200px;
+    margin-left: 790px;
+    width: 95px;
+    height: 30px;
+    background: #FFFFFF;
+    border: 1px solid #E2E2E2;
+    border-radius: 20px;
+    
+}
+
+#artikel .container .scrolling-wrapper .card h5 {
+    width: 285px;
+    height: 60px;
+    margin-top: 240px;
+    margin-left: 25px;
+    position: absolute;
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 30px; 
+    color: #FFFFFF;   
+    text-shadow: 0px 4px 4px rgba(255, 255, 255, 0.1);
+}
+
+#artikel .container .scrolling-wrapper .card2 h5 {
+    width: 285px;
+    height: 60px;
+    margin-top: 240px;
+    margin-left: 410px;
+    position: absolute;
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 30px; 
+    color: #FFFFFF;   
+    text-shadow: 0px 4px 4px rgba(255, 255, 255, 0.1);
+}
+#artikel .container .scrolling-wrapper .card3 h5 {
+    width: 285px;
+    height: 60px;
+    margin-top: 240px;
+    margin-left: 790px;
+    position: absolute;
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 30px; 
+    color: #FFFFFF;   
+    text-shadow: 0px 4px 4px rgba(255, 255, 255, 0.1);
+}
+
+#artikel .container .scrolling-wrapper .card p {
+    width: 110px;
+    height: 15px;
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;    
+    color: #FFFFFF;
+    text-shadow: 0px 4px 4px rgba(255, 255, 255, 0.1);
+    margin-top: 310px;
+    margin-left: 25px;
+    position: absolute;
+}
+
+#artikel .container .scrolling-wrapper .card2 p {
+    width: 110px;
+    height: 15px;
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;    
+    color: #FFFFFF;
+    text-shadow: 0px 4px 4px rgba(255, 255, 255, 0.1);
+    margin-top: 310px;
+    margin-left: 410px;
+    position: absolute;
+}
+
+#artikel .container .scrolling-wrapper .card3 p {
+    width: 110px;
+    height: 15px;
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;    
+    color: #FFFFFF;
+    text-shadow: 0px 4px 4px rgba(255, 255, 255, 0.1);
+    margin-top: 310px;
+    margin-left: 790px;
+    position: absolute;
+}
+
+#artikel a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 16px;
+}
+      
+#artikel a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.previous {
+    background-color: #f1f1f1;
+    color: black;
+    position: relative;
+    margin-top: 150px;
+    margin-left: 55px;
+  }
+  
+  .next {
+    background-color: #f1f1f1;
+    color:black;
+    margin-top: 150px;
+    margin-left: 1165px;
+    position: relative;
+  }
+  
+  .round {
+    border-radius: 50%;
+  }
+
+ /* #artikel .btn {
+    position: absolute;
+    top: 50%;
+    margin-top: 20px;
+    height: 30px;
+    width: 30px;
+    border-radius: 15px;
+    background-color: rgba(95, 106, 117, 0.3);
+    z-index: 1;
+    line-height: 30px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+ }
+ .artikel .btn:hover{
+    background-color: rgba(95, 106, 117, 0.5);
+    cursor: pointer;
+ }
+ .artikel .btn.next {
+    right: 15px;
+ }
+ .artikel .btn.prev {
+    left: 15px;
+ } */
+
+#mitra-kerja {
+    width: 100%;
+    height: auto;
+    background:#FFFFFF;
+    top: 3650px;
+    position: absolute;
+}
+
+#mitra-kerja .mitra-container {
+    position: relative;
+    margin: 10px;
+    width: 100%;
+    height: auto;
+    padding: 15px;
+    top: 10px;
+}
+
+#mitra-kerja .mitra-container .title-mitra{
+    margin-bottom: 5rem;
+}
+
+#mitra-kerja .mitra-container .title-mitra h5 {
+    position: absolute;
+    width: 100%;
+    height: 30px;
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 30px;
+    text-align: center;
+    color: #14375E;
+}
+
+#mitra-kerja .mitra-container .logo-mitra {
+    margin-left: 100px;
+}
+
+#mitra-kerja .mitra-container .logo-mitra #ugm {
+    margin-left: 7%;
+}
+#mitra-kerja .mitra-container .logo-mitra #ui {
+    margin-left: 7%;
+}
+#mitra-kerja .mitra-container .logo-mitra #itb {
+    margin-left: 7%;
+}
+#mitra-kerja .mitra-container .logo-mitra #ipb {
+    margin-left: 7%;
+}
 
 #footer-container {
     position: absolute;
