@@ -173,3 +173,36 @@
     left: 470px;
     top: 567px;
 }
+#footer {
+    position: absolute;
+    width: 1440px;
+    height: 580px;
+    left: 0px;
+    top: 4026px;
+    font-family: Roboto !important;
+    font-style: normal;
+    font-weight: bold;
+    color: #FFFFFF;
+
+background: #14375E;
+}
+#footer p {
+    font-family: Roboto !important;
+    font-style: normal;
+    font-weight: normal;
+    color: #FFFFFF;
+}
+
+#footer h5 {
+    font-family: Roboto !important;
+    font-style: normal;
+    font-weight: bold;
+    color: #FFFFFF;
+}
+
+#footer li {
+    font-family: Roboto !important;
+    font-style: normal;
+    font-weight: normal;
+    color: #FFFFFF;
+}
