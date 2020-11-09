@@ -1281,6 +1281,59 @@ section #fitur-yang-tersedia{
     margin-left: 7%;
 }
 
+#mitra-kerja {
+    width: 100%;
+    height: auto;
+    background:#FFFFFF;
+    top: 3650px;
+    position: absolute;
+}
+
+#mitra-kerja .mitra-container {
+    position: relative;
+    margin: 10px;
+    width: 100%;
+    height: auto;
+    padding: 15px;
+    top: 10px;
+}
+
+#mitra-kerja .mitra-container .title-mitra{
+    margin-bottom: 5rem;
+}
+
+#mitra-kerja .mitra-container .title-mitra h5 {
+    position: absolute;
+    width: 100%;
+    height: 30px;
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 30px;
+    text-align: center;
+    color: #14375E;
+}
+
+#mitra-kerja .mitra-container .logo-mitra {
+    margin-left: 100px;
+}
+
+#mitra-kerja .mitra-container .logo-mitra #ugm {
+    margin-left: 7%;
+}
+#mitra-kerja .mitra-container .logo-mitra #ui {
+    margin-left: 7%;
+}
+#mitra-kerja .mitra-container .logo-mitra #itb {
+    margin-left: 7%;
+}
+#mitra-kerja .mitra-container .logo-mitra #ipb {
+    margin-left: 7%;
+}
+
+
+
 #footer-container {
     position: absolute;
     width: 1440px;
